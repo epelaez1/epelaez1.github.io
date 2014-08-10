@@ -1,14 +1,14 @@
 #block {
 		display: inline-block;
-		margin-bottom: -4px;
+		margin-bottom: -1%;
     	padding: 0;
 		width: 100px;
 		height: 100px;
 		border: 10px solid black;
 }
-@-moz-document url-prefix() {
+/*@-moz-document url-prefix() {
     #block {margin-bottom: -6px;} 
-}
+}*/
 
 #box {width: 480px;
 	  height: 480px;
