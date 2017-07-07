@@ -1,0 +1,95 @@
+#block {
+		display: inline-block;
+		margin-bottom: -1%;
+    	padding: 0;
+		width: 100px;
+		height: 100px;
+		border: 10px solid black;
+}
+/*@-moz-document url-prefix() {
+    #block {margin-bottom: -6px;} 
+}*/
+
+#box {width: 480px;
+	  height: 480px;
+	  background-image: url("fondo.jpg");
+	  margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+	border-radius: 10px;
+}
+
+.a { width: 480px;	
+	height: 120px;
+}
+
+#buttons{
+	padding-top: 100px;
+}
+
+#play{
+	width: 480px;
+	height: 480px;
+	background-image:url("fondo02.jpg");
+	background-color: grey;
+	border-radius: 10px;
+}
+
+#play:hover{
+	cursor: pointer;
+}
+
+.play1{
+	margin-top: 100px;
+	background-image:url("play01.jpg");
+	color:#fff;
+	width: 201px;
+	height: 41px;
+	font-size: 30px;
+	border-radius: 10px;
+	text-transform:uppercase;
+	padding-top: 13px;
+	font-family: Opal,Open Sans,Arial,sans-serif;
+	}
+
+#button1:hover{
+	background-image: url("play02.jpg");;
+}
+
+.image {
+	width: 100px;
+	height: 100px;
+	z-index: 500;
+	position: absolute;
+}
+
+.logo {
+	width: 100px;
+	height: 100px;
+	z-index: 700;
+	position: absolute;
+	background-color: white;
+}
+
+.animation{
+			z-index: 800;
+			-webkit-animation-name: anim;
+			-webkit-animation-duration: 0.3s;
+			-webkit-animation-iteration-count: 1;
+
+}
+
+@-webkit-keyframes anim {
+	0%{opacity: 0 }
+	100%{opacity: 1;}
+	
+}
+
+.ilusiones{
+	background-image: url(ilusion.jpg);
+	width: 480px;
+	height: 480px;
+}
+.invisible{
+	opacity: 0;
+}
